@@ -1,5 +1,6 @@
 # sinon-demo
 I made this repo to demonstrate how to do some cool stuff with sinon in your unit tests.  Smarter everyday.
+Another great (and far better) resource: https://www.sitepoint.com/sinon-tutorial-javascript-testing-mocks-spies-stubs/
 
 ## Spies!
 Spys are cool because they tell you if a function was called.  This is expecially usefull when you are unit testing something that takes a function as an argument, ie a callback scenario.  [Sinon documentation here](http://sinonjs.org/releases/v1.17.7/spies) 
