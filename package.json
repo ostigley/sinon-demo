@@ -4,8 +4,15 @@
   "description": "Demonstration of how to use sinon spies and stubs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.* --compilers js:babel-core/register --watch"
   },
   "author": "Oliver Stigley",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  }
 }
