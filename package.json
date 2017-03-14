@@ -1,0 +1,11 @@
+{
+  "name": "sinon-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of how to use sinon spies and stubs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oliver Stigley",
+  "license": "MIT"
+}
