@@ -1,10 +1,14 @@
 {
   "name": "sinon-demo",
   "version": "1.0.0",
-  "description": "Demonstration of how to use sinon spies and stubs",
+  "description": "Demonstration of how to use sinon spies, stubs and mocks",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.* --compilers js:babel-core/register --watch"
+    "test:stub-nested": "mocha test/stub-nested-module.js --compilers js:babel-core/register --watch",
+    "test:spy": "mocha test/spy --compilers js:babel-core/register --watch",
+    "test:mock": "mocha test/mock --compilers js:babel-core/register --watch",
+    "test": "mocha test/*.* --compilers js:babel-core/register --watch",
+    "test:sandbox": "mocha test/sandboxed-tests/*.* --compilers js:babel-core/register --watch"
   },
   "author": "Oliver Stigley",
   "license": "MIT",
